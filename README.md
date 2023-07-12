@@ -1,1 +1,1 @@
-# freeCodeCamp solve
+# freeCodeCamp solved
