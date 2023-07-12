@@ -1,0 +1,18 @@
+/*function checandoTelefone(str) {
+  return /^(1\s?)?(\(\d{3}\)|\d{3})(-|\s)?\d{3}(-|\s)?\d{4}$/.test(str);
+}
+
+console.log(checandoTelefone("555-555-5555")); // true
+console.log(checandoTelefone("1 (555) 555-5555")); // true
+console.log(checandoTelefone("5555555555")); // true
+console.log(checandoTelefone("123-456-7890")); // false  */
+
+
+function telephoneCheck(str) {
+  return /^(1\s?)?(\(\d{3}\)|\d{3})(-|\s)?\d{3}(-|\s)?\d{4}$/.test(str);
+}
+
+console.log(telephoneCheck("555-555-5555")); // true
+console.log(telephoneCheck("1 (555) 555-5555")); // true
+console.log(telephoneCheck("5555555555")); // true
+console.log(telephoneCheck("123-456-7890")); // false
