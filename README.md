@@ -13,3 +13,4 @@ projeto 05: https://replit.com/@Jenemebous/caixa-registradora
 
 
 
+![certificado](https://github.com/AnagOliveira/freeCodeCamp/assets/137459374/cbe2f8f5-1544-467e-9437-2e7c95f92f1f)
