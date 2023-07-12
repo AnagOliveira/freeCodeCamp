@@ -12,4 +12,4 @@ projeto 05: https://replit.com/@Jenemebous/caixa-registradora
 
 
 
-![certificado](https://github.com/AnagOliveira/freeCodeCamp/assets/137459374/45fe6111-0d99-4b73-bdd8-388df96743ec)
+
