@@ -1,0 +1,25 @@
+projeto 01: https://replit.com/@Jenemebous/palindromo-checker
+
+/*function Palindromo(frase) {
+    frase = frase.replace(/[^a-zA-Z]/g, '').toLowerCase();
+    for (var i = 0; i < frase.length / 2; i++) {
+        if (frase[i] !== frase[frase.length - 1 - i]) {
+            return false;
+        }
+    }
+
+    return true;
+}*/  
+
+function palindrome(str) {
+  var regex = /[^A-Za-z0-9]/g;
+  var cleanStr = str.toLowerCase().replace(regex, '');
+
+  var len = cleanStr.length;
+  for (var i = 0; i < len / 2; i++) {
+    if (cleanStr[i] !== cleanStr[len - 1 - i]) {
+      return false;
+    }
+  }
+  return true;
+}
