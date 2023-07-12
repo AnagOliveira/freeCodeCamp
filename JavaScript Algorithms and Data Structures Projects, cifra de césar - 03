@@ -1,0 +1,25 @@
+function rot13(str) {
+  var result = "";
+
+
+  for (var i = 0; i < str.length; i++) {
+    var char = str[i];
+
+    if (char.match(/[a-z]/i)) {
+      var code = str.charCodeAt(i);
+
+  
+      if (code >= 65 && code <= 90) {
+        char = String.fromCharCode(((code - 65 + 13) % 26) + 65);
+      } else if (code >= 97 && code <= 122) {
+        char = String.fromCharCode(((code - 97 + 13) % 26) + 97);
+      }
+    }
+
+    result += char;
+  }
+
+  return result;
+}
+
+console.log(rot13("SERR PBQR PNZC")); // FREE CODE CAMP
